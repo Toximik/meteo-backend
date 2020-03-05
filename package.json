@@ -1,0 +1,29 @@
+{
+  "name": "meteo-backend",
+  "version": "0.1.0",
+  "description": "Simple backend for meteo station",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toximik/meteo-backend.git"
+  },
+  "author": "Tomas Campr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toximik/meteo-backend/issues"
+  },
+  "homepage": "https://github.com/Toximik/meteo-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "moment": "^2.24.0",
+    "polka": "^0.5.2",
+    "serve-static": "^1.14.1",
+    "sqlite-async": "^1.0.12"
+  }
+}
